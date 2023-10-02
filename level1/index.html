@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="legal.css">
+
+</head>
+
+<body>
+
+
+    <a href="/" title="Home" rel="home" class="header__logo" id="logo" role="link"></a>
+    <header>
+
+        <h4 class="logo">
+            <img class="national_amblem"
+                src="https://www.clipartkey.com/mpngs/m/216-2169405_coat-of-arms-of-india-png-image-national.png"
+                alt="national_amblem">
+            <!-- <div class="bar">
+                    <button onclick="openSignUpPage()">Sign up</button>
+                    <button onclick="openLogInPage()">Log in</button> -->
+            <ul>
+                <li><strong>कानूनी सलाहकार</strong></li>
+                <li>"LEGAL"
+                    <span>Consultance</span>
+                </li>
+            </ul> 
+        </h4>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </nav>
+    <main>
+      
+      <!-- This section for user to contribute with expert -->
+      
+       <div class="expert">
+         
+         <h1>Expert Site</h1>
+         <p id="info">Fill all require information</p>
+         
+         <form>
+           <fieldset>
+             <label for="expertid" >Enter Expert_id :</label>
+             <br>
+             <input type="text" id="expertid" name="expert_id"  placeholder="your expert_id" required/>
+             <br>
+             
+             <label for="first name">First Name :</label>
+             <br>
+             <input type="text" id="first name"  name="first name" placeholder="Enter name" required/>
+             <br>
+             
+             <label for="last name">Last Name :</label>
+             <br>
+             <input type="text" id="last name"  name="last name" placeholder="Enter surmane" required/>
+             <br>
+             
+             <label for="email">Enter Email Address : </label>
+             <br>
+             <input type="email" id="email"  name="email" placeholder="Enter email" required/>
+             <br>
+             
+             <label for="phone">Enter Expert Number :</label>
+             <br>
+             <input type="tel" id="phone" name="number" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" min="1" max="10" required/>
+             <br>
+             
+             <p class="lang"> Which language would you like ? </p>
+             <select class="lang">
+              
+               <option id=" ">your language:</option>
+               <option id="1">HINDI</option>
+               <option id="2">GUJRATI</option>
+               <option id="3">ENGLISH</option>
+               
+               
+             </select>
+             <div  class="address">
+               <label for="state">Expter State :</label>
+               <br>
+               <input type="text" id="state" name="state" placeholder="Enter State" required/>
+               <br>
+               
+               <label for="district">Expert District :</label>
+               <br>
+               <input type="text" id="district" name="district" placeholder="Enter District" required/>
+               <br>
+               </div>
+             </fieldset>
+             <div class="submit">
+             <input type="submit" id="submit" name="submit"/>
+             <input type="reset" id="reset" name="reset"/>
+             </div>
+           
+         </form>
+       </div>
+    </main>
+    <footer>
+        &copy; 2023 Your Website. All rights reserved.
+    </footer>
+</body>
+
+</html>
