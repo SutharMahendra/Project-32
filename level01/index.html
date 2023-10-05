@@ -41,33 +41,69 @@
     </nav>
     <main>
         <form>  
-            <div >  
-            <center>  <h3>USER REGISTRATION</h3> </center>  
-            <hr>  
-            <label> User_id </label>   
-          <input type="text" name="User_id" placeholder= "User_id" required />   
-          <label> Name: </label>   
-          <input type="text" name="Name" placeholder="Name"  required />
-          <label>   
-          </div> 
-          <DIV>
-          <label>   
-           Phone :  
-          </label><BR>     
-          <input type="text" name="phone" placeholder="phone no." size="9"/ required>   
-          Current Address :  
-          <textarea cols="80" rows="4" placeholder="Current Address" value="address" required>  
-          </textarea>  
-           <label for="email"><b>Email</b></label>  
-           <input type="text" placeholder="Enter Email" name="email" required>  
-          </DIV> 
-            
+            <div class="user">
+         
+                <h1>USER SITE</h1>
+                <p id="info">Fill all require information</p>
                 
-              <button type="submit" class="registerbtn">Register</button>    
-    </main>
-    <footer>
-        &copy; 2023 Your Website. All rights reserved.
-    </footer>
-</body>
-
-</html>
+                <form>
+                  <fieldset>
+                    <label for="username" >Enter username :</label>
+                    <br>
+                    <input type="text" id="username" name="username"  placeholder="username" required/>
+                    <br>
+                    
+                    <label for="first name">First Name :</label>
+                    <br>
+                    <input type="text" id="first name"  name="first name" placeholder="Enter name" required/>
+                    <br>
+                    
+                    <label for="last name">Last Name :</label>
+                    <br>
+                    <input type="text" id="last name"  name="last name" placeholder="Enter surmane" required/>
+                    <br>
+                    
+                    <label for="email"> Email address : </label>
+                    <br>
+                    <input type="email" id="email"  name="email" placeholder="Enter email" required/>
+                    <br>
+                    
+                    <label for="phone"> Number :</label>
+                    <br>
+                    <input type="tel" id="phone" name="number" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" min="1" max="10" required/>
+                    <br>
+                      
+                      
+                    </select>
+                    <div  class="address">
+                      <label for="state"> State :</label>
+                      <br>
+                      <input type="text" id="state" name="state" placeholder="Enter State" required/>
+                      <br>
+                      
+                      <label for="district"> District :</label>
+                      <br>
+                      <input type="text" id="district" name="district" placeholder="Enter District" required/>
+                      <br>
+                      <label for="state"> Address :</label>
+                      <br>
+                      <input type="text" id="address" name="address" placeholder="Enter your address" required/>
+                      <br>
+                      </div>
+                    </fieldset>
+                    <div class="submit">
+                    <input type="submit" id="submit" name="submit"/>
+                    <input type="reset" id="reset" name="reset"/>
+                    </div>
+                  
+                </form>
+              </div>
+           </main>
+           <footer>
+               &copy; 2023 Your Website. All rights reserved.
+           </footer>
+       </body>
+       
+       </html>
+            
+            
